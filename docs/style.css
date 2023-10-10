@@ -134,9 +134,9 @@ logo img {
 }
 
 .img-back {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: flexbox;
+  width: 200vh;
+  height: 92vh;
   background-image: url(./background.png);
 }
 /*# sourceMappingURL=style.css.map */
