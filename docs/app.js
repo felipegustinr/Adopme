@@ -1,4 +1,5 @@
-baseDatos = localStorage.getItem("sistemaLogin")
+baseDatos = window.localStorage.getItem("sign_in");
+
 
 if (!baseDatos) {
     cargarDatosDB()
@@ -18,12 +19,17 @@ function cargarDatosDB() {
     }
 
 }
+
 async function login() {
+    alert("paso");
     
+        
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
+        
         let datos = baseDatos[usuario]
         if (!datos) {
+            alert("paso if")
             alert("El usuario no existe");
             return false;
         }
