@@ -134,8 +134,6 @@ logo img {
 }
 
 .img-back {
-  margin: 0;
-  padding: 0;
   width: 100vw;
   height: 100vh;
   background-image: url(https://raw.githubusercontent.com/felipegustinr/Adopme/main/docs/background.png);
