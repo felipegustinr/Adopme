@@ -134,9 +134,11 @@ logo img {
 }
 
 .img-back {
-  display: flexbox;
-  width: 200vh;
-  height: 92vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url(./background.png);
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
