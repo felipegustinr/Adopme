@@ -19,10 +19,10 @@ function cargarDatosDB() {
 
 }
 async function login() {
-    let{value :datos} = preConfirm () => {
+    
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
-        datos = baseDatos[usuario]
+        let datos = baseDatos[usuario]
         if (!datos) {
             alert("El usuario no existe");
             return false;
@@ -32,5 +32,5 @@ async function login() {
             return false;
         }
         return datos;
-    }
+    
 }
