@@ -19,25 +19,26 @@ function cargarDatosDB() {
     }
 
 }
-function index(){
-    window.location.href="./index.html";
-}
-async function login() {
+
+function login() {
     
     
-        
+        let datos =  baseDatos[usuario]
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
         
-        let datos = baseDatos[usuario]
+        
         if (!datos) {
-            alert("El usuario no existe");
-            return false;
+            alert("El usuario no existe o campo vacio");
+            
         }
+        
         if(datos.password!= password){
-            alert("Contraseña Incorrecta");
-            return false;
+            alert("Contraseña Incorrecta o campo vacio");
+            
         }
+        
         return datos;
+        
     
 }
