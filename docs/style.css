@@ -134,11 +134,11 @@ logo img {
 }
 
 .img-back {
+  overflow: hidden;
   padding: 0;
   margin: 0;
   width: 100vw;
   height: 100vh;
   background-image: url(https://raw.githubusercontent.com/felipegustinr/Adopme/main/docs/background.png);
-  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
