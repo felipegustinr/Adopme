@@ -7,13 +7,13 @@ if (!baseDatos) {
 function cargarDatosDB() {
     baseDatos = {
         "felipe_rivas@prueba.com": {
-            contraseña: "felipe123"
+            password: "felipe123"
         },
         "diana_araujo@prueba.com": {
-            contraseña: "diana123"
+            password: "diana123"
         },
         "daniel_jojoa@prueba-com": {
-            contraseña: "daniel123"
+            password: "daniel123"
 
         }
     }
@@ -34,7 +34,7 @@ async function login() {
             alert("El usuario no existe");
             return false;
         }
-        if(datos.contraseña!= contraseña){
+        if(datos.password!= password){
             alert("Contraseña Incorrecta");
             return false;
         }
