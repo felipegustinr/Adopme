@@ -28,7 +28,7 @@ async function login() {
         
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
-        alert(usuario);
+        
         let datos = baseDatos[usuario]
         if (!datos) {
             alert("El usuario no existe");
