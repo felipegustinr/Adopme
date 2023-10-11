@@ -19,14 +19,16 @@ function cargarDatosDB() {
     }
 
 }
-
+function index(){
+    window.location.href="./index.html";
+}
 async function login() {
-    alert("paso");
+    
     
         
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
-        
+        alert(usuario);
         let datos = baseDatos[usuario]
         if (!datos) {
             alert("paso if")
