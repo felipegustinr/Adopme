@@ -134,9 +134,12 @@ logo img {
 }
 
 .img-back {
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0;
   margin: 0;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   background-image: url(https://raw.githubusercontent.com/felipegustinr/Adopme/main/docs/background.png);
