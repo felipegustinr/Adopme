@@ -31,7 +31,6 @@ async function login() {
         alert(usuario);
         let datos = baseDatos[usuario]
         if (!datos) {
-            alert("paso if")
             alert("El usuario no existe");
             return false;
         }
