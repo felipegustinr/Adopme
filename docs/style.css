@@ -1,14 +1,14 @@
 .btn-main, .btn-main-s {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
-  background-color: #185678;
+  background-color: #00A29B;
   color: white;
   border: none;
-  border: solid 1px #185678;
+  border: solid 1px #00A29B;
 }
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
-  color: #185678;
+  color: #00A29B;
 }
 .btn-main-s {
   font-size: 0.75rem;
@@ -42,7 +42,7 @@
   font-size: 0.75rem;
   padding: 0.25rem;
   border-radius: 50%;
-  color: #185678;
+  color: #00A29B;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2588235294);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2588235294);
 }
@@ -57,7 +57,7 @@
           flex-direction: column;
 }
 .feature .icon {
-  color: #185678;
+  color: #00A29B;
   font-size: 2rem;
 }
 .feature .description .title {
@@ -66,11 +66,11 @@
   height: 0px;
   padding-top: 10rem;
   font-size: 1rem;
-  color: #185678;
+  color: #00A29B;
 }
 
 .login {
-  color: #185678;
+  color: #00A29B;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,7 +82,7 @@
 }
 
 .registrer {
-  color: #185678;
+  color: #00A29B;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
