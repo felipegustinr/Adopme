@@ -23,11 +23,10 @@ logo img {
     height: 15rem;
 }
 .img-back {
-    display: flex;
-    padding: 0;
-    margin: 0;
+    
+    
     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: 90vh;
     background-image: url(https://raw.githubusercontent.com/felipegustinr/Adopme/main/docs/background.png) ;
 }
