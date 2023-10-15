@@ -37,6 +37,12 @@ function login() {
             alert("Contraseña Incorrecta o campo vacio");
             
         }
+        if (usuario == datos){
+            if(datos.password == password){
+                alert("Ingreso correcto");
+                window.location="pets.html";
+            }
+        }
         
         return datos;
         
