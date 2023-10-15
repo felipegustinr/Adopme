@@ -12,7 +12,7 @@ function cargarDatosDB() {
         "diana_araujo@prueba.com": {
             password: "diana123"
         },
-        "daniel_jojoa@prueba-com": {
+        "daniel_jojoa@prueba.com": {
             password: "daniel123"
 
         }
