@@ -109,3 +109,23 @@ $color-main: #00A29B;
     margin-bottom: 5rem;
     padding-top: 5rem;
 }
+.pets{
+    display: grid;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+
+    .card{
+        display: flex;
+        padding: 0.75rem;
+        margin: 0.5rem;
+        border-color: $color-main;
+        border-radius: 2rem;
+
+        .card-img-top{
+            width: 16rem;
+            height: auto;
+        }
+    }
+
+}
