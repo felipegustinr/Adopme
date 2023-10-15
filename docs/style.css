@@ -93,6 +93,29 @@
   padding-top: 5rem;
 }
 
+.pets {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: auto;
+  margin: auto;
+}
+.pets .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border-color: #00A29B;
+  border-radius: 2rem;
+}
+.pets .card .card-img-top {
+  width: 16rem;
+  height: auto;
+}
+
 body {
   padding: 0;
   margin: 0;
