@@ -42,9 +42,6 @@ function login() {
                 alert("Ingreso correcto");
                 window.location="pets.html";
             }
-        }
-        
-        return datos;
-        
+        }  
     
 }
