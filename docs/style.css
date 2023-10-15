@@ -134,6 +134,9 @@ logo img {
 }
 
 .img-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
   width: auto;
   height: 90vh;
@@ -144,6 +147,9 @@ logo img {
 }
 
 .img-back-co {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
   padding-top: 55rem;
   width: auto;
