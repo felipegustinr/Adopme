@@ -1,8 +1,12 @@
-baseDatos = window.localStorage.getItem("DB_users");
+baseDatos = JSON.parse( window.localStorage.getItem("DB_users"));
 
 
 if (!baseDatos) {
     cargarDatosDB()
+}
+
+function guardarDatos(){
+    localStorage.setItem("DB_users", JSON.stringify(baseDatos))
 }
 function cargarDatosDB() {
     baseDatos = {
@@ -45,7 +49,24 @@ function login() {
             window.location="pets.html"
             alert("Bienvenido")
         }
+    }
+
+    function registrer(){
+        let usuario = document.getElementById("email-reg").value;
+        let password = document.getElementById("password-reg").value;
         
-        
+
+        if (!usuario) {
+            alert("Campo vacio en usuario");
+        }
+        if(!password){
+            alert("Campo vacio en contraseña");
+    }else{
+        baseDatos[usuario]={}
+        baseDatos[usuario].password=password
+        guardarDatos();
+        window.location="sign_in.html"
+        alert("Usuario Registrado Correctamente")
+    }
     
 }
