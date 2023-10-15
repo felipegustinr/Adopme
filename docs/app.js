@@ -13,9 +13,7 @@ function cargarDatosDB() {
         "felipe_rivas@prueba.com": {
             password: "felipe123"
         },
-        "diana_araujo@prueba.com": {
-            password: "diana123"
-        },
+        
         "daniel_jojoa@prueba.com": {
             password: "daniel123"
 
