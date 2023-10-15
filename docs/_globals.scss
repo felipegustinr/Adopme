@@ -23,6 +23,7 @@ logo img {
     height: 15rem;
 }
 .img-back {
+    display: flex;
     overflow: hidden;
     width: auto;
     height: 90vh;
@@ -33,6 +34,7 @@ logo img {
 }
 
 .img-back-co {
+    display: flex;
     overflow: hidden;
     padding-top: 55rem;
     width: auto ;
