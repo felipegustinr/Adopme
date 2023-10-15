@@ -1,4 +1,4 @@
-baseDatos = window.localStorage.getItem("sign_in");
+baseDatos = window.localStorage.getItem("DB_users");
 
 
 if (!baseDatos) {
@@ -20,28 +20,32 @@ function cargarDatosDB() {
 
 }
 
-function login() {
-    
-    
-        let datos =  baseDatos[usuario]
+function login() {  
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
         
         
-        if (!datos) {
-            alert("El usuario no existe o campo vacio");
+        
+        if (!usuario) {
+            alert("Campo vacio en usuario");
+        }
+        if(!password){
+            alert("Campo vacio en contraseña");
+        }
+        let datos =  baseDatos[usuario]
+
+        if (!datos){
+            alert("El usuario no existe")
+        }
+
+        if (password != datos.password) {
+            alert("Contraseña incorrecta")
+        } else {
             
+            window.location="pets.html"
+            alert("Bienvenido")
         }
         
-        if(datos.password!= password){
-            alert("Contraseña Incorrecta o campo vacio");
-            
-        }
-        if (usuario == datos){
-            if(datos.password == password){
-                alert("Ingreso correcto");
-                window.location="pets.html";
-            }
-        }  
+        
     
 }
