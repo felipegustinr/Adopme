@@ -112,8 +112,12 @@
   border-radius: 2rem;
 }
 .pets .card .card-img-top {
-  width: 16rem;
+  width: 16.5rem;
   height: auto;
+  border-radius: 3rem;
+}
+.pets .card .card-text {
+  text-align: justify;
 }
 
 body {
