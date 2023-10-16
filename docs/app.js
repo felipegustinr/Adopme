@@ -16,18 +16,14 @@ function cargarDatosDB() {
         
         "daniel_jojoa@prueba.com": {
             password: "daniel123"
-
         }
     }
-
 }
 
 function login() {  
         let usuario = document.getElementById("email-login").value;
         let password = document.getElementById("password-login").value;
-        
-        
-        
+
         if (!usuario) {
             alert("Campo vacio en usuario");
         }
@@ -35,25 +31,20 @@ function login() {
             alert("Campo vacio en contraseña");
         }
         let datos =  baseDatos[usuario]
-
         if (!datos){
             alert("El usuario no existe")
         }
-
         if (password != datos.password) {
             alert("Contraseña incorrecta")
         } else {
-            
             window.location="pets.html"
             alert("Bienvenido")
         }
     }
-
     function registrer(){
         let usuario = document.getElementById("email-reg").value;
         let password = document.getElementById("password-reg").value;
         
-
         if (!usuario) {
             alert("Campo vacio en usuario");
         }
@@ -65,6 +56,5 @@ function login() {
         guardarDatos();
         window.location="sign_in.html"
         alert("Usuario Registrado Correctamente")
-    }
-    
+    } 
 }
