@@ -123,8 +123,14 @@ $color-main: #00A29B;
         border-radius: 2rem;
 
         .card-img-top{
-            width: 16rem;
+            width: 16.5rem;
             height: auto;
+            border-radius: 3rem;
+        }
+
+        .card-text{
+            text-align: justify;
+            text
         }
     }
 
