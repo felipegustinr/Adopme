@@ -175,9 +175,9 @@ logo img {
 }
 
 .title {
-  padding: -1rem;
-  margin: 0rem;
-  text-decoration: none;
+  overflow: hidden;
+  width: auto;
+  height: -1rem;
   overflow: hidden;
   text-align: center;
   background-color: transparent;
