@@ -1,7 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
+$color-main: #00A29B;
 .nav {
     display: flex;
     align-items: center;
@@ -14,6 +16,8 @@ logo img {
     width: 100px;
     height: 100px;
     float: left;
+
+    
 }
 .login-page{
     display: flex;
@@ -32,8 +36,19 @@ logo img {
     background-attachment: fixed;
     background-size: cover;
     background-image: url(https://raw.githubusercontent.com/felipegustinr/Adopme/main/docs/background.png) ;
+    
 }
 
+.title{
+    padding: -1rem;
+    margin: 0rem;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    background-color: transparent;
+    color: $color-main ;
+
+}
 .img-back-co {
     display: flex;
     overflow: hidden;
