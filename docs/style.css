@@ -1,14 +1,14 @@
 .btn-main, .btn-main-s {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
-  background-color: #00A29B;
+  background-color: #00a29b;
   color: white;
   border: none;
-  border: solid 1px #00A29B;
+  border: solid 1px #00a29b;
 }
 .btn-main:hover, .btn-main-s:hover {
   background-color: white;
-  color: #00A29B;
+  color: #00a29b;
 }
 .btn-main-s {
   font-size: 0.75rem;
@@ -42,7 +42,7 @@
   font-size: 0.75rem;
   padding: 0.25rem;
   border-radius: 50%;
-  color: #00A29B;
+  color: #00a29b;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2588235294);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2588235294);
 }
@@ -57,7 +57,7 @@
           flex-direction: column;
 }
 .feature .icon {
-  color: #00A29B;
+  color: #00a29b;
   font-size: 2rem;
 }
 .feature .description .title {
@@ -66,11 +66,11 @@
   height: 0px;
   padding-top: 10rem;
   font-size: 1rem;
-  color: #00A29B;
+  color: #00a29b;
 }
 
 .login {
-  color: #00A29B;
+  color: #00a29b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,7 +82,7 @@
 }
 
 .registrer {
-  color: #00A29B;
+  color: #00a29b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,7 +108,7 @@
   display: flex;
   padding: 0.75rem;
   margin: 0.5rem;
-  border-color: #00A29B;
+  border-color: #00a29b;
   border-radius: 2rem;
 }
 .pets .card .card-img-top {
