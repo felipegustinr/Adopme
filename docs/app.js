@@ -39,8 +39,9 @@ function login() {
         if (password != datos.password) {
             alert("Contraseña incorrecta")
         } else {
+             alert("Bienvenido")
             window.location="pets.html"
-            alert("Bienvenido")
+           
         }
     }
     function registrer(){
